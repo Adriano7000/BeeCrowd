@@ -9,7 +9,7 @@ public class Bee1044Multiplos {
         boolean multiplo;
 
         String[] valor = sc.nextLine().split(" ");
-        //double[] num = Arrays.stream(valor).mapToDouble(Double::parseDouble).toArray();
+        double[] num = Arrays.stream(valor).mapToDouble(Double::parseDouble).toArray();
 
         if (num[0] <= num[1]) {
             multiplo = (num[1] % num[0] == 0);
